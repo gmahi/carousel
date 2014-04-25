@@ -1,0 +1,98 @@
+
+
+.nav-arrow {
+	width: 30px;
+	height: 140px;
+	background-color: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	text-align: center;
+	line-height: 140px;
+	cursor: pointer;
+	font-size: 18pt;
+	color: darkgray;
+}
+.nav-arrow:hover {
+	background-color: lightgray;
+	font-size: 20pt;
+	color: #888;
+}
+.nav-arrow-left {
+	float: left;
+	border-left: 1px solid #888;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.nav-arrow-right {
+	float: right;
+	border-right: 1px solid #888;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.carousel-wrapper {
+	/* Positioning */
+	height: 140px;
+	width: 702px;
+	overflow: hidden;
+	float: left;
+	/* Purdy */
+	background-color: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+}
+
+.shelf {
+	overflow: hidden;
+	height: 140px;
+}
+
+.shelf-item {
+	overflow: hidden;
+	display: inline-block;
+	width: 100px;
+	height: 120px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 1px solid darkgray;
+	background-size: 100%;
+	cursor: pointer;
+	position: relative;
+	top: -150px;
+}
+
+.shelf-position-0 {
+	left: 200px;
+}
+.shelf-position-1 {
+	left: 100px;
+}
+.shelf-position-2 {
+	left: 0px;
+}
+.shelf-position-3 {
+	left: -100px;
+}
+.shelf-position-4 {
+	left: -200px;
+}
+.shelf-position-5 {
+	left: -300px;
+}
+
+
+
+.meta {
+	position: absolute;
+	bottom: -22px; left: 0; right: 0; height: 18px;
+	padding-top: 4px;
+	font-size: 12px;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	background-color: rgba(0, 100, 0, 0.7);
+	cursor: pointer;
+}
+.meta.sold-out {
+	background-color: rgba(80, 0, 0, 0.7);
+}
